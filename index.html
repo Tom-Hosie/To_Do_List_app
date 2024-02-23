@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800 p-4">
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-md shadow-md">
+        <h2 class="text-xl font-semibold mb-4">To Do List</h2>
+        <form id="todo-form" class="flex">
+          <input type="text" id="todo-input" class="border rounded-l-md px-3 py-2 w-full mb-2 h-10" placeholder="Enter a new todo">
+          <button type="submit" class="bg-blue-500 text-white py-0.5 w-1/4 rounded-r-md h-10">Add To List</button>
+        </form>
+        <ul id="todo-list" class="mt-4">
+        </ul>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
